@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>I Found You — A Love Found</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&family=Lato:wght@300;400&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <canvas id="particles"></canvas>
+
+  <div class="petals-container" id="petals"></div>
+
+  <main class="scene">
+
+    <header class="top-label">
+      <span class="dot"></span>
+      <p>♪ &nbsp; A Love Found &nbsp; ♪</p>
+      <span class="dot"></span>
+    </header>
+
+    <div class="heart-icon" id="heart" aria-hidden="true">
+      <svg viewBox="0 0 60 60" xmlns="http://www.w3.org/2000/svg">
+        <path d="M30 52S6 36 6 20a12 12 0 0 1 24 0 12 12 0 0 1 24 0c0 16-24 32-24 32z"/>
+      </svg>
+    </div>
+
+    <article class="lyrics-card" aria-label="Lirik lagu romantis">
+
+      <div class="verse verse-1">
+        <div class="accent-line"></div>
+        <div class="lines">
+          <p class="lyric-line" data-delay="0.6">I would never fall in love again</p>
+          <p class="lyric-line highlight-pink" data-delay="1.2">until I found <em>her</em></p>
+        </div>
+      </div>
+
+      <div class="verse verse-2">
+        <div class="accent-line accent-teal"></div>
+        <div class="lines">
+          <p class="lyric-line" data-delay="1.9">I said, "I would never fall unless it's</p>
+          <p class="lyric-line highlight-pink" data-delay="2.5"><em>you</em> I fall into"</p>
+        </div>
+      </div>
+
+      <div class="verse verse-3">
+        <div class="accent-line accent-teal"></div>
+        <div class="lines">
+          <p class="lyric-line" data-delay="3.2">I was lost within the darkness,</p>
+          <p class="lyric-line highlight-teal" data-delay="3.8">but then I found <em>her</em></p>
+        </div>
+      </div>
+
+      <div class="finale" data-delay="4.5">
+        <div class="rule"></div>
+        <p class="finale-text">I found <em>you</em></p>
+        <div class="rule"></div>
+      </div>
+
+    </article>
+
+    <footer class="hearts-row" id="heartsRow" aria-hidden="true"></footer>
+
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
